@@ -232,7 +232,7 @@ en:
         valid: Valid
       title: Manage Users
   add_to_google_calendar: "Add to Google Calendar"
-  bigbluebutton: Orcasmart Meeting
+  bigbluebutton: BigBlueButton
   bigbluebutton_exception: Oops, there was an error when starting the meeting!
   cancel: Cancel
   cookies:
@@ -305,7 +305,7 @@ en:
   footer:
     legal: Terms
     privpolicy: Privacy Policy
-    powered_by: Copyright © 2022 %{bigbluebutton} Inc.
+    powered_by: Copyright © 2022 Orcasmart Group Inc.
   forgot_password:
     subtitle: Forgot Password
     email: Email
@@ -337,7 +337,7 @@ en:
       start: Start searching...
   landing:
     about: "You can create your own rooms to host sessions, or join others using a short and convenient link."
-    welcome: Welcome to %{bigbluebutton}.
+    welcome: Welcome to Orcasmart Meeting.
     video: 
     upgrade: Show me how to upgrade to 2.0!
     version: We've released a new version of Greenlight, but your database isn't compatible.
