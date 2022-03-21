@@ -59,9 +59,11 @@
       window.I18nFallback = <%= fallback_translations.to_json.html_safe %>
     </script>
 
-    <link rel="stylesheet" href="/css/bijou.min.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <% if controller_name == "main" && action_name == "index" %>
+      <link rel="stylesheet" href="/css/bijou.min.css">
+      <link rel="stylesheet" href="/css/style.css">
+      <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <% end %>
   </head>
 
   <body class="app-background" data-controller="<%= controller_name %>" data-action="<%= action_name %>" data-relative-root="<%= Rails.configuration.relative_url_root || "/" %>">
